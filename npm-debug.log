@@ -1,0 +1,253 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'meteor-em' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'meteor-em', null ]
+5 verbose cache add name=undefined spec="meteor-em" args=["meteor-em",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'meteor-em',
+6 verbose parsed url   path: 'meteor-em',
+6 verbose parsed url   href: 'meteor-em' }
+7 silly lockFile 3c60bfc3-meteor-em meteor-em
+8 verbose lock meteor-em /Users/williamjohnson/.npm/3c60bfc3-meteor-em.lock
+9 silly lockFile 3c60bfc3-meteor-em meteor-em
+10 silly lockFile 3c60bfc3-meteor-em meteor-em
+11 verbose addNamed [ 'meteor-em', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile b1529746-meteor-em meteor-em@
+14 verbose lock meteor-em@ /Users/williamjohnson/.npm/b1529746-meteor-em.lock
+15 silly addNameRange { name: 'meteor-em', range: '*', hasData: false }
+16 verbose url raw meteor-em
+17 verbose url resolving [ 'https://registry.npmjs.org/', './meteor-em' ]
+18 verbose url resolved https://registry.npmjs.org/meteor-em
+19 info trying registry request attempt 1 at 17:39:47
+20 verbose etag "38055IAT6N124H11UFSJJDAQN"
+21 http GET https://registry.npmjs.org/meteor-em
+22 http 200 https://registry.npmjs.org/meteor-em
+23 silly registry.get cb [ 200,
+23 silly registry.get   { date: 'Fri, 04 Apr 2014 00:39:48 GMT',
+23 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+23 silly registry.get     etag: '"8EH9VKY7IRIPVUJTOS1E0G2QA"',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     'cache-control': 'max-age=1',
+23 silly registry.get     'content-length': '8527',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     age: '2363',
+23 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-lax1427-LAX',
+23 silly registry.get     'x-cache': 'MISS, MISS',
+23 silly registry.get     'x-cache-hits': '0, 0',
+23 silly registry.get     'x-timer': 'S1396571988.332279444,VS0,VS41,VE118,VE151',
+23 silly registry.get     vary: 'Accept',
+23 silly registry.get     'keep-alive': 'timeout=10, max=50',
+23 silly registry.get     connection: 'Keep-Alive' } ]
+24 silly addNameRange number 2 { name: 'meteor-em', range: '*', hasData: true }
+25 silly addNameRange versions [ 'meteor-em',
+25 silly addNameRange   [ '0.0.1', '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.1.5' ] ]
+26 verbose addNamed [ 'meteor-em', '0.1.5' ]
+27 verbose addNamed [ '0.1.5', '0.1.5' ]
+28 silly lockFile c566ecd8-meteor-em-0-1-5 meteor-em@0.1.5
+29 verbose lock meteor-em@0.1.5 /Users/williamjohnson/.npm/c566ecd8-meteor-em-0-1-5.lock
+30 silly lockFile 61457aa2-rg-meteor-em-meteor-em-0-1-5-tgz https://registry.npmjs.org/meteor-em/-/meteor-em-0.1.5.tgz
+31 verbose lock https://registry.npmjs.org/meteor-em/-/meteor-em-0.1.5.tgz /Users/williamjohnson/.npm/61457aa2-rg-meteor-em-meteor-em-0-1-5-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/meteor-em/-/meteor-em-0.1.5.tgz',
+32 verbose addRemoteTarball   '6d414965afffd547cec939e6598954d7f12dfaae' ]
+33 info retry fetch attempt 1 at 17:39:48
+34 verbose fetch to= /var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/tmp.tgz
+35 http GET https://registry.npmjs.org/meteor-em/-/meteor-em-0.1.5.tgz
+36 http 200 https://registry.npmjs.org/meteor-em/-/meteor-em-0.1.5.tgz
+37 verbose tar unpack /var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/tmp.tgz
+38 silly lockFile d1b3802c-88504-0-5699044708162546-package tar:///var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/package
+39 verbose lock tar:///var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/package /Users/williamjohnson/.npm/d1b3802c-88504-0-5699044708162546-package.lock
+40 silly lockFile 165eb426-88504-0-5699044708162546-tmp-tgz tar:///var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/tmp.tgz
+41 verbose lock tar:///var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/tmp.tgz /Users/williamjohnson/.npm/165eb426-88504-0-5699044708162546-tmp-tgz.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm extractEntry README.md
+46 silly gunzTarPerm extractEntry bin/em.js
+47 silly gunzTarPerm extractEntry lib/command.js
+48 silly gunzTarPerm extractEntry lib/em.js
+49 silly gunzTarPerm extractEntry lib/generator.js
+50 silly gunzTarPerm extractEntry lib/log.js
+51 silly gunzTarPerm extractEntry lib/commands/generate.js
+52 silly gunzTarPerm extractEntry lib/commands/help.js
+53 silly gunzTarPerm extractEntry lib/commands/init.js
+54 silly gunzTarPerm extractEntry lib/commands/package.js
+55 silly gunzTarPerm extractEntry lib/commands/start.js
+56 silly gunzTarPerm extractEntry lib/generators/collection.js
+57 silly gunzTarPerm extractEntry lib/generators/controller.js
+58 silly gunzTarPerm extractEntry lib/generators/methods.js
+59 silly gunzTarPerm extractEntry lib/generators/package.js
+60 silly gunzTarPerm extractEntry lib/generators/project.js
+61 silly gunzTarPerm extractEntry lib/generators/publish.js
+62 silly gunzTarPerm extractEntry lib/generators/route.js
+63 silly gunzTarPerm extractEntry lib/generators/scaffold.js
+64 silly gunzTarPerm extractEntry lib/generators/view.js
+65 silly gunzTarPerm extractEntry lib/templates/create_collection.js.ejs
+66 silly gunzTarPerm extractEntry lib/templates/both/app.js.ejs
+67 silly gunzTarPerm extractEntry lib/templates/both/router/route.js.ejs
+68 silly gunzTarPerm extractEntry lib/templates/both/router/routes.js.ejs
+69 silly gunzTarPerm extractEntry lib/templates/collection_query_comment.js.ejs
+70 silly gunzTarPerm extractEntry lib/templates/controller.js.ejs
+71 silly gunzTarPerm extractEntry lib/templates/controller_server.js.ejs
+72 silly gunzTarPerm extractEntry lib/templates/client/app.css.ejs
+73 silly gunzTarPerm extractEntry lib/templates/client/app.html.ejs
+74 silly gunzTarPerm extractEntry lib/templates/client/app.js.ejs
+75 silly gunzTarPerm extractEntry lib/templates/client/views/master_layout.html.ejs
+76 silly gunzTarPerm extractEntry lib/templates/client/views/view.css.ejs
+77 silly gunzTarPerm extractEntry lib/templates/client/views/view.html.ejs
+78 silly gunzTarPerm extractEntry lib/templates/client/views/view.js.ejs
+79 silly gunzTarPerm extractEntry lib/templates/methods.js.ejs
+80 silly gunzTarPerm extractEntry lib/templates/package/main_file.js.ejs
+81 silly gunzTarPerm extractEntry lib/templates/package/package.js.ejs
+82 silly gunzTarPerm extractEntry lib/templates/package/test_file.js.ejs
+83 silly gunzTarPerm extractEntry lib/templates/publish.js.ejs
+84 silly gunzTarPerm extractEntry lib/templates/route.js.ejs
+85 silly gunzTarPerm extractEntry lib/templates/server/app.js.ejs
+86 silly gunzTarPerm extractEntry lib/templates/server/collections/collection_auth.js.ejs
+87 silly lockFile d1b3802c-88504-0-5699044708162546-package tar:///var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/package
+88 silly lockFile d1b3802c-88504-0-5699044708162546-package tar:///var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/package
+89 silly lockFile 165eb426-88504-0-5699044708162546-tmp-tgz tar:///var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/tmp.tgz
+90 silly lockFile 165eb426-88504-0-5699044708162546-tmp-tgz tar:///var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/tmp.tgz
+91 verbose tar pack [ '/Users/williamjohnson/.npm/meteor-em/0.1.5/package.tgz',
+91 verbose tar pack   '/var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/package' ]
+92 verbose tarball /Users/williamjohnson/.npm/meteor-em/0.1.5/package.tgz
+93 verbose folder /var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/package
+94 silly lockFile d1b3802c-88504-0-5699044708162546-package tar:///var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/package
+95 verbose lock tar:///var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/package /Users/williamjohnson/.npm/d1b3802c-88504-0-5699044708162546-package.lock
+96 silly lockFile 9b3c22e0--npm-meteor-em-0-1-5-package-tgz tar:///Users/williamjohnson/.npm/meteor-em/0.1.5/package.tgz
+97 verbose lock tar:///Users/williamjohnson/.npm/meteor-em/0.1.5/package.tgz /Users/williamjohnson/.npm/9b3c22e0--npm-meteor-em-0-1-5-package-tgz.lock
+98 silly lockFile d1b3802c-88504-0-5699044708162546-package tar:///var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/package
+99 silly lockFile d1b3802c-88504-0-5699044708162546-package tar:///var/folders/49/hnwvqcdj24b3739_ww540v8r0000gn/T/npm-12181-gJJedI1H/1396571988504-0.5699044708162546/package
+100 silly lockFile 9b3c22e0--npm-meteor-em-0-1-5-package-tgz tar:///Users/williamjohnson/.npm/meteor-em/0.1.5/package.tgz
+101 silly lockFile 9b3c22e0--npm-meteor-em-0-1-5-package-tgz tar:///Users/williamjohnson/.npm/meteor-em/0.1.5/package.tgz
+102 silly lockFile debe9862-nson-npm-meteor-em-0-1-5-package /Users/williamjohnson/.npm/meteor-em/0.1.5/package
+103 verbose lock /Users/williamjohnson/.npm/meteor-em/0.1.5/package /Users/williamjohnson/.npm/debe9862-nson-npm-meteor-em-0-1-5-package.lock
+104 silly lockFile debe9862-nson-npm-meteor-em-0-1-5-package /Users/williamjohnson/.npm/meteor-em/0.1.5/package
+105 silly lockFile debe9862-nson-npm-meteor-em-0-1-5-package /Users/williamjohnson/.npm/meteor-em/0.1.5/package
+106 verbose tar unpack /Users/williamjohnson/.npm/meteor-em/0.1.5/package.tgz
+107 silly lockFile 0543b06e-nson-npm-meteor-em-0-1-5-package tar:///Users/williamjohnson/.npm/meteor-em/0.1.5/package
+108 verbose lock tar:///Users/williamjohnson/.npm/meteor-em/0.1.5/package /Users/williamjohnson/.npm/0543b06e-nson-npm-meteor-em-0-1-5-package.lock
+109 silly lockFile 9b3c22e0--npm-meteor-em-0-1-5-package-tgz tar:///Users/williamjohnson/.npm/meteor-em/0.1.5/package.tgz
+110 verbose lock tar:///Users/williamjohnson/.npm/meteor-em/0.1.5/package.tgz /Users/williamjohnson/.npm/9b3c22e0--npm-meteor-em-0-1-5-package-tgz.lock
+111 silly gunzTarPerm modes [ '755', '644' ]
+112 silly gunzTarPerm extractEntry package.json
+113 silly gunzTarPerm extractEntry .npmignore
+114 silly gunzTarPerm extractEntry README.md
+115 silly gunzTarPerm extractEntry bin/em.js
+116 silly gunzTarPerm extractEntry lib/command.js
+117 silly gunzTarPerm extractEntry lib/em.js
+118 silly gunzTarPerm extractEntry lib/generator.js
+119 silly gunzTarPerm extractEntry lib/log.js
+120 silly gunzTarPerm extractEntry lib/commands/generate.js
+121 silly gunzTarPerm extractEntry lib/commands/help.js
+122 silly gunzTarPerm extractEntry lib/commands/init.js
+123 silly gunzTarPerm extractEntry lib/commands/package.js
+124 silly gunzTarPerm extractEntry lib/commands/start.js
+125 silly gunzTarPerm extractEntry lib/generators/collection.js
+126 silly gunzTarPerm extractEntry lib/generators/controller.js
+127 silly gunzTarPerm extractEntry lib/generators/methods.js
+128 silly gunzTarPerm extractEntry lib/generators/package.js
+129 silly gunzTarPerm extractEntry lib/generators/project.js
+130 silly gunzTarPerm extractEntry lib/generators/publish.js
+131 silly gunzTarPerm extractEntry lib/generators/route.js
+132 silly gunzTarPerm extractEntry lib/generators/scaffold.js
+133 silly gunzTarPerm extractEntry lib/generators/view.js
+134 silly gunzTarPerm extractEntry lib/templates/create_collection.js.ejs
+135 silly gunzTarPerm extractEntry lib/templates/both/app.js.ejs
+136 silly gunzTarPerm extractEntry lib/templates/both/router/route.js.ejs
+137 silly gunzTarPerm extractEntry lib/templates/both/router/routes.js.ejs
+138 silly gunzTarPerm extractEntry lib/templates/collection_query_comment.js.ejs
+139 silly gunzTarPerm extractEntry lib/templates/controller.js.ejs
+140 silly gunzTarPerm extractEntry lib/templates/controller_server.js.ejs
+141 silly gunzTarPerm extractEntry lib/templates/client/app.css.ejs
+142 silly gunzTarPerm extractEntry lib/templates/client/app.html.ejs
+143 silly gunzTarPerm extractEntry lib/templates/client/app.js.ejs
+144 silly gunzTarPerm extractEntry lib/templates/client/views/master_layout.html.ejs
+145 silly gunzTarPerm extractEntry lib/templates/client/views/view.css.ejs
+146 silly gunzTarPerm extractEntry lib/templates/client/views/view.html.ejs
+147 silly gunzTarPerm extractEntry lib/templates/client/views/view.js.ejs
+148 silly gunzTarPerm extractEntry lib/templates/methods.js.ejs
+149 silly gunzTarPerm extractEntry lib/templates/package/main_file.js.ejs
+150 silly gunzTarPerm extractEntry lib/templates/package/package.js.ejs
+151 silly gunzTarPerm extractEntry lib/templates/package/test_file.js.ejs
+152 silly gunzTarPerm extractEntry lib/templates/publish.js.ejs
+153 silly gunzTarPerm extractEntry lib/templates/route.js.ejs
+154 silly gunzTarPerm extractEntry lib/templates/server/app.js.ejs
+155 silly gunzTarPerm extractEntry lib/templates/server/collections/collection_auth.js.ejs
+156 silly lockFile 0543b06e-nson-npm-meteor-em-0-1-5-package tar:///Users/williamjohnson/.npm/meteor-em/0.1.5/package
+157 silly lockFile 0543b06e-nson-npm-meteor-em-0-1-5-package tar:///Users/williamjohnson/.npm/meteor-em/0.1.5/package
+158 silly lockFile 9b3c22e0--npm-meteor-em-0-1-5-package-tgz tar:///Users/williamjohnson/.npm/meteor-em/0.1.5/package.tgz
+159 silly lockFile 9b3c22e0--npm-meteor-em-0-1-5-package-tgz tar:///Users/williamjohnson/.npm/meteor-em/0.1.5/package.tgz
+160 verbose chmod /Users/williamjohnson/.npm/meteor-em/0.1.5/package.tgz 644
+161 verbose chown /Users/williamjohnson/.npm/meteor-em/0.1.5/package.tgz [ 501, 20 ]
+162 silly lockFile 61457aa2-rg-meteor-em-meteor-em-0-1-5-tgz https://registry.npmjs.org/meteor-em/-/meteor-em-0.1.5.tgz
+163 silly lockFile 61457aa2-rg-meteor-em-meteor-em-0-1-5-tgz https://registry.npmjs.org/meteor-em/-/meteor-em-0.1.5.tgz
+164 silly lockFile c566ecd8-meteor-em-0-1-5 meteor-em@0.1.5
+165 silly lockFile c566ecd8-meteor-em-0-1-5 meteor-em@0.1.5
+166 silly lockFile b1529746-meteor-em meteor-em@
+167 silly lockFile b1529746-meteor-em meteor-em@
+168 silly resolved [ { name: 'meteor-em',
+168 silly resolved     version: '0.1.5',
+168 silly resolved     description: 'A command line tool for scaffolding Meteor applications.',
+168 silly resolved     homepage: 'https://github.com/EventedMind/em',
+168 silly resolved     bugs:
+168 silly resolved      { url: 'https://github.com/EventedMind/em/issues',
+168 silly resolved        email: 'chris@eventedmind.com' },
+168 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+168 silly resolved     author: { name: 'Chris Mather', email: 'chris@eventedmind.com' },
+168 silly resolved     license: 'MIT',
+168 silly resolved     dependencies:
+168 silly resolved      { 'cli-color': '0.2.3',
+168 silly resolved        minimist: '0.0.8',
+168 silly resolved        underscore: '1.3.3',
+168 silly resolved        'cli-table': '0.3.0',
+168 silly resolved        ejs: '0.8.5',
+168 silly resolved        fibers: '1.0.1' },
+168 silly resolved     bin: { em: './bin/em.js' },
+168 silly resolved     readme: '# em\n\nA command line scaffolding tool for Meteor applications. It automatically\ncreates project structure, files and boilerplate code. The project structure\nmimics that of the EventedMind publishing platform.\n\n## Installation\n\nInstall the em command line tool globally so you can use it from any project\ndirectory.\n\n```sh\n$ npm install -g meteor-em\n```\n\n## Pre-Reqs\n\nYou\'ll want to have [Iron Router](https://github.com/eventedmind/iron-router)\ninstalled. Also, this command line tool just handles scaffolding for now. `mrt`\nand `meteor` are different command line tools. Hopefully, sometime in the near\nfuture we can enhance the `meteor` command line tool to be pluggable!\n\n## Usage\n\nJust type ```em``` from the command line and you\'ll see the various top level\ncommands. Then type ```em generate``` or ```em g``` to see a list of generators.\n\nYou can initialize your project structure like this:\n\n```sh\n$ em init\n```\n\nThen you can generate various resources. Here are a few examples:\n\n```sh\n$ em g:scaffold todos\n$ em g:view todos/todo_item\n$ em g:controller webhooks/stripe --where "server"\n$ em g:route todos/todo_show\n```\n\n## Contributing\n\nThis is an early alpha project and any thoughts and contributions are welcome.\n\n## License\nMIT\n',
+168 silly resolved     readmeFilename: 'README.md',
+168 silly resolved     _id: 'meteor-em@0.1.5',
+168 silly resolved     dist: { shasum: '6d414965afffd547cec939e6598954d7f12dfaae' },
+168 silly resolved     _from: 'meteor-em@',
+168 silly resolved     _resolved: 'https://registry.npmjs.org/meteor-em/-/meteor-em-0.1.5.tgz' } ]
+169 info install meteor-em@0.1.5 into /usr/local/lib
+170 info installOne meteor-em@0.1.5
+171 info /usr/local/lib/node_modules/meteor-em unbuild
+172 info preuninstall meteor-em@0.1.1
+173 info uninstall meteor-em@0.1.1
+174 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild meteor-em@0.1.1
+175 verbose /usr/local/bin,[object Object] binRoot
+176 info /usr/local/lib/node_modules/meteor-em unbuild
+177 info preuninstall meteor-em@0.1.1
+178 info uninstall meteor-em@0.1.1
+179 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild meteor-em@0.1.1
+180 verbose /usr/local/bin,[object Object] binRoot
+181 error error rolling back Error: EACCES, unlink '/usr/local/bin/em'
+181 error error rolling back  meteor-em@0.1.5 { [Error: EACCES, unlink '/usr/local/bin/em'] errno: 3, code: 'EACCES', path: '/usr/local/bin/em' }
+182 error Error: EACCES, unlink '/usr/local/bin/em'
+182 error  { [Error: EACCES, unlink '/usr/local/bin/em'] errno: 3, code: 'EACCES', path: '/usr/local/bin/em' }
+183 error Please try running this command again as root/Administrator.
+184 error System Darwin 13.0.0
+185 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "meteor-em"
+186 error cwd /Users/williamjohnson/newtodos
+187 error node -v v0.10.26
+188 error npm -v 1.4.3
+189 error path /usr/local/bin/em
+190 error code EACCES
+191 error errno 3
+192 error stack Error: EACCES, unlink '/usr/local/bin/em'
+193 verbose exit [ 3, true ]
